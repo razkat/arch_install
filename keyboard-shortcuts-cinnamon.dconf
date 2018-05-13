@@ -1,0 +1,49 @@
+[custom-keybindings/custom1]
+binding=['<Super>F4']
+command='gimp'
+name='gimp'
+
+[custom-keybindings/custom2]
+binding=['<Super>F9']
+command='evolution'
+name='evolution'
+
+[custom-keybindings/custom3]
+binding=['<Alt>n']
+command='variety -n'
+name='next wallpaper'
+
+[custom-keybindings/custom4]
+binding=['<Alt>f']
+command='variety -f'
+name='wallpaper favorite'
+
+[custom-keybindings/custom5]
+binding=['<Shift><Super>Return']
+command='nemo'
+name='nemo'
+
+[custom-keybindings/custom6]
+binding=['<Super>F1']
+command='chromium'
+name='chromium'
+
+[custom-keybindings/custom7]
+binding=['<Alt>t']
+command='variety -t'
+name='variety trash wallpaper'
+
+[custom-keybindings/custom8]
+binding=['<Alt>p']
+command='variety -p'
+name='previous wallpaper'
+
+[/]
+custom-list=['custom0', 'custom1', 'custom2', 'custom3', 'custom4', 'custom5', 'custom6', 'custom7', 'custom8']
+
+[wm]
+close=['<Shift><Super>q']
+switch-to-workspace-1=['<Super>1']
+switch-to-workspace-2=['<Super>2']
+switch-to-workspace-3=['<Super>3']
+switch-to-workspace-4=['<Super>4']
